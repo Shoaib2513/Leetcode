@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0046-permutations](https://github.com/Shoaib2513/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Shoaib2513/Leetcode/tree/master/0051-n-queens) |
+| [0136-single-number](https://github.com/Shoaib2513/Leetcode/tree/master/0136-single-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -28,4 +29,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Shoaib2513/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Shoaib2513/Leetcode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
