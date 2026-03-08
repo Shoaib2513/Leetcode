@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Shoaib2513/Leetcode/tree/master/0051-n-queens) |
 | [0136-single-number](https://github.com/Shoaib2513/Leetcode/tree/master/0136-single-number) |
 | [0260-single-number-iii](https://github.com/Shoaib2513/Leetcode/tree/master/0260-single-number-iii) |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Backtracking
 |  |
@@ -60,4 +61,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
+## Greedy
+|  |
+| ------- |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
+## Sorting
+|  |
+| ------- |
+| [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 <!---LeetCode Topics End-->
