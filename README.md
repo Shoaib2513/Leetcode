@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Shoaib2513/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Shoaib2513/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Shoaib2513/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Shoaib2513/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
+| [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Greedy
 |  |
