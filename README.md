@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Shoaib2513/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Shoaib2513/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
 | [0046-permutations](https://github.com/Shoaib2513/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Shoaib2513/Leetcode/tree/master/0051-n-queens) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shoaib2513/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 ## Prefix Sum
 |  |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Shoaib2513/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
 | [0125-valid-palindrome](https://github.com/Shoaib2513/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
