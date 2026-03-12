@@ -2,15 +2,7 @@ class Solution {
     public int[][] merge(int[][] intervals) {
         int n = intervals.length;
         //sorted
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                if(intervals[i][0]>intervals[j][0]){
-                    int[] temp = intervals[i];
-                    intervals[i] = intervals[j];
-                    intervals[j] = temp;
-                }
-            }
-        }
+        Arrays.sort(intervals,(a,b)->a[0]-b[0]);
         ArrayList<ArrayList<Integer>> list = new ArrayList<>();
         
         int i=0;
