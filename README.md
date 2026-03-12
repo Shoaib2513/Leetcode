@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
 | [0046-permutations](https://github.com/Shoaib2513/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Shoaib2513/Leetcode/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/Shoaib2513/Leetcode/tree/master/0056-merge-intervals) |
 | [0136-single-number](https://github.com/Shoaib2513/Leetcode/tree/master/0136-single-number) |
 | [0260-single-number-iii](https://github.com/Shoaib2513/Leetcode/tree/master/0260-single-number-iii) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Shoaib2513/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
+| [0056-merge-intervals](https://github.com/Shoaib2513/Leetcode/tree/master/0056-merge-intervals) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 ## Prefix Sum
 |  |
