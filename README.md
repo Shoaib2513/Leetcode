@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0260-single-number-iii](https://github.com/Shoaib2513/Leetcode/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
+| [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
+| [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Greedy
 |  |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Shoaib2513/Leetcode/tree/master/0056-merge-intervals) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
+| [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 ## Prefix Sum
 |  |
@@ -118,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Shoaib2513/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 ## Matrix
 |  |
 | ------- |
@@ -125,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Shoaib2513/Leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Union-Find
