@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0389-find-the-difference](https://github.com/Shoaib2513/Leetcode/tree/master/0389-find-the-difference) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Shoaib2513/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Shoaib2513/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Shoaib2513/Leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Shoaib2513/Leetcode/tree/master/0260-single-number-iii) |
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
+| [0389-find-the-difference](https://github.com/Shoaib2513/Leetcode/tree/master/0389-find-the-difference) |
 | [1009-complement-of-base-10-integer](https://github.com/Shoaib2513/Leetcode/tree/master/1009-complement-of-base-10-integer) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/Shoaib2513/Leetcode/tree/master/2220-minimum-bit-flips-to-convert-number) |
 ## Math
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0389-find-the-difference](https://github.com/Shoaib2513/Leetcode/tree/master/0389-find-the-difference) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 ## Greedy
 |  |
@@ -103,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
 | [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0389-find-the-difference](https://github.com/Shoaib2513/Leetcode/tree/master/0389-find-the-difference) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 ## Prefix Sum
 |  |
