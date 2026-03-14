@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Shoaib2513/Leetcode/tree/master/0136-single-number) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0260-single-number-iii](https://github.com/Shoaib2513/Leetcode/tree/master/0260-single-number-iii) |
+| [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
 | [0056-merge-intervals](https://github.com/Shoaib2513/Leetcode/tree/master/0056-merge-intervals) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
+| [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 ## Prefix Sum
 |  |
@@ -145,4 +147,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/Shoaib2513/Leetcode/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
