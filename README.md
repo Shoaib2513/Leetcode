@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Shoaib2513/Leetcode/tree/master/0010-regular-expression-matching) |
 | [0024-swap-nodes-in-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0203-remove-linked-list-elements](https://github.com/Shoaib2513/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0231-power-of-two](https://github.com/Shoaib2513/Leetcode/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
 ## Divide and Conquer
@@ -179,4 +180,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0203-remove-linked-list-elements](https://github.com/Shoaib2513/Leetcode/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
