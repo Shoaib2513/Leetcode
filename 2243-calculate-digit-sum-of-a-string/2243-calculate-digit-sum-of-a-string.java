@@ -9,7 +9,7 @@ class Solution {
             int j=i;
             int sum=0;
             while(j<n && count<k){
-                sum += s.charAt(j)-'0';
+                sum += Integer.parseInt(String.valueOf(s.charAt(j)));
                 count++;
                 j++;
             }
