@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Shoaib2513/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Backtracking
 |  |
@@ -191,4 +192,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## Simulation
+|  |
+| ------- |
+| [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
 <!---LeetCode Topics End-->
