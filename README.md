@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/Shoaib2513/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/Shoaib2513/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/Shoaib2513/Leetcode/tree/master/0258-add-digits) |
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
+| [0202-happy-number](https://github.com/Shoaib2513/Leetcode/tree/master/0202-happy-number) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
 | [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
 | [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Shoaib2513/Leetcode/tree/master/0016-3sum-closest) |
 | [0125-valid-palindrome](https://github.com/Shoaib2513/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0202-happy-number](https://github.com/Shoaib2513/Leetcode/tree/master/0202-happy-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Shoaib2513/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
