@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Shoaib2513/Leetcode/tree/master/0010-regular-expression-matching) |
 | [0014-longest-common-prefix](https://github.com/Shoaib2513/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Shoaib2513/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0125-valid-palindrome](https://github.com/Shoaib2513/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0290-word-pattern](https://github.com/Shoaib2513/Leetcode/tree/master/0290-word-pattern) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Shoaib2513/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0046-permutations](https://github.com/Shoaib2513/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/Shoaib2513/Leetcode/tree/master/0051-n-queens) |
 | [0077-combinations](https://github.com/Shoaib2513/Leetcode/tree/master/0077-combinations) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Shoaib2513/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/Shoaib2513/Leetcode/tree/master/0036-valid-sudoku) |
 | [0202-happy-number](https://github.com/Shoaib2513/Leetcode/tree/master/0202-happy-number) |
 | [0229-majority-element-ii](https://github.com/Shoaib2513/Leetcode/tree/master/0229-majority-element-ii) |
