@@ -1,48 +1,31 @@
 class Solution {
-    
-    public long[] helper(int[][] arr, int i, int j, long[][][] dp) {
-        int m = arr.length;
-        int n = arr[0].length;
-      
-        if(i == m-1 && j == n-1){
-            return new long[]{arr[i][j], arr[i][j]};
+    public int maxProductPath(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        long[] maxDp = new long[n];
+        long[] minDp = new long[n];
+        maxDp[0] = grid[0][0];
+        minDp[0] = grid[0][0];
+        for (int j = 1; j < n; j++) {
+            maxDp[j] = maxDp[j - 1] * grid[0][j];
+            minDp[j] = maxDp[j];
         }
-        if(dp[i][j][0] != Long.MIN_VALUE){
-            return new long[]{dp[i][j][0], dp[i][j][1]};
-        }  
-        long max = Long.MIN_VALUE;
-        long min = Long.MAX_VALUE;
-        if(j + 1 < n){
-            long[] right = helper(arr, i, j+1, dp);
-            long a = arr[i][j] * right[0];
-            long b = arr[i][j] * right[1]; 
-            max = Math.max(max, Math.max(a, b));
-            min = Math.min(min, Math.min(a, b));
-        }
-        if(i + 1 < m){
-            long[] down = helper(arr, i+1, j, dp);
-            long a = arr[i][j] * down[0];
-            long b = arr[i][j] * down[1]; 
-            max = Math.max(max, Math.max(a, b));
-            min = Math.min(min, Math.min(a, b));
-        }
-        dp[i][j][0] = max;
-        dp[i][j][1] = min; 
-        return new long[]{max, min};
-    }
-    
-    public int maxProductPath(int[][] arr) {
-        int m = arr.length;
-        int n = arr[0].length; 
-        long[][][] dp = new long[m][n][2];
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                dp[i][j][0] = Long.MIN_VALUE;
-                dp[i][j][1] = Long.MAX_VALUE;
+        for (int i = 1; i < m; i++) {
+            maxDp[0] = maxDp[0] * grid[i][0];
+            minDp[0] = maxDp[0];
+            for (int j = 1; j < n; j++) {
+                long a = maxDp[j] * grid[i][j];    
+                long b = minDp[j] * grid[i][j];
+                long c = maxDp[j - 1] * grid[i][j];
+                long d = minDp[j - 1] * grid[i][j];
+                long newMax = Math.max(Math.max(a, b), Math.max(c, d));
+                long newMin = Math.min(Math.min(a, b), Math.min(c, d));
+                maxDp[j] = newMax;
+                minDp[j] = newMin;
             }
         }
-        long[] res = helper(arr, 0, 0, dp);
-        if(res[0] < 0) return -1;
-        return (int)(res[0] % 1000000007);
+        long res = maxDp[n - 1];
+        if (res < 0) return -1;
+        return (int) (res % 1000000007);
     }
 }
