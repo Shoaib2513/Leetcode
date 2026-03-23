@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Shoaib2513/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/Shoaib2513/Leetcode/tree/master/0203-remove-linked-list-elements) |
+| [0328-odd-even-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
