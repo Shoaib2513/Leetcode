@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
 | [2906-construct-product-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Shoaib2513/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Shoaib2513/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
 | [1622-fancy-sequence](https://github.com/Shoaib2513/Leetcode/tree/master/1622-fancy-sequence) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Recursion
 |  |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Shoaib2513/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Shoaib2513/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Shoaib2513/Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Shoaib2513/Leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Shoaib2513/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
@@ -247,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Combinatorics
 |  |
 | ------- |
