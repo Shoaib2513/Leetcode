@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
+| [2326-spiral-matrix-iv](https://github.com/Shoaib2513/Leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2573-find-the-string-with-lcp](https://github.com/Shoaib2513/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2906-construct-product-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Shoaib2513/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Shoaib2513/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2326-spiral-matrix-iv](https://github.com/Shoaib2513/Leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2573-find-the-string-with-lcp](https://github.com/Shoaib2513/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2906-construct-product-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shoaib2513/Leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+| [2326-spiral-matrix-iv](https://github.com/Shoaib2513/Leetcode/tree/master/2326-spiral-matrix-iv) |
 ## Stack
 |  |
 | ------- |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2293-min-max-game](https://github.com/Shoaib2513/Leetcode/tree/master/2293-min-max-game) |
+| [2326-spiral-matrix-iv](https://github.com/Shoaib2513/Leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Combinatorics
 |  |
