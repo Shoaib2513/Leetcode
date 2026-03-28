@@ -1,6 +1,7 @@
 class Solution {
     public String findTheString(int[][] lcp) {
         int n = lcp.length;
+
         for (int i = 0; i < n; i++) {
             if (lcp[i][i] != n - i) return "";
             for (int j = 0; j < n; j++) {
@@ -18,6 +19,7 @@ class Solution {
                 }
             }
         }
+
         char[] res = new char[n];
         char ch = 'a';
 
@@ -29,6 +31,7 @@ class Solution {
             }
             res[i] = res[p];
         }
+
         int[][] calc = new int[n][n];
 
         for (int i = n - 1; i >= 0; i--) {
@@ -42,18 +45,18 @@ class Solution {
                 }
             }
         }
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (calc[i][j] != lcp[i][j]) return "";
             }
         }
+
         return new String(res);
     }
 
     private int find(int x, int[] parent) {
-        if (parent[x] != x) {
-            parent[x] = find(parent[x], parent);
-        }
+        if (parent[x] != x) parent[x] = find(parent[x], parent);
         return parent[x];
     }
 
