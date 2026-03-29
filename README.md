@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2573-find-the-string-with-lcp](https://github.com/Shoaib2513/Leetcode/tree/master/2573-find-the-string-with-lcp) |
+| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Shoaib2513/Leetcode/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 ## Array
 |  |
 | ------- |
