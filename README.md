@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2243-calculate-digit-sum-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2573-find-the-string-with-lcp](https://github.com/Shoaib2513/Leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Shoaib2513/Leetcode/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Shoaib2513/Leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 ## Array
 |  |
 | ------- |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [1980-find-unique-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1980-find-unique-binary-string) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Shoaib2513/Leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Shoaib2513/Leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
 ## Greedy
 |  |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1005-maximize-sum-of-array-after-k-negations](https://github.com/Shoaib2513/Leetcode/tree/master/1005-maximize-sum-of-array-after-k-negations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Shoaib2513/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/Shoaib2513/Leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Shoaib2513/Leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 ## Prefix Sum
 |  |
