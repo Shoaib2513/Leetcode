@@ -3,6 +3,8 @@ class Solution {
         int n = str1.length(), m = str2.length();
         int len = n + m - 1;
         char[] res = new char[len];
+        boolean[] fixed = new boolean[len];
+
         for (int i = 0; i < len; i++) res[i] = '?';
 
         for (int i = 0; i < n; i++) {
@@ -10,6 +12,7 @@ class Solution {
                 for (int j = 0; j < m; j++) {
                     if (res[i + j] == '?' || res[i + j] == str2.charAt(j)) {
                         res[i + j] = str2.charAt(j);
+                        fixed[i + j] = true;
                     } else {
                         return "";
                     }
@@ -30,33 +33,18 @@ class Solution {
                         break;
                     }
                 }
+
                 if (match) {
                     boolean changed = false;
                     for (int j = m - 1; j >= 0; j--) {
                         int idx = i + j;
+                        if (fixed[idx]) continue;
+
                         for (char c = 'a'; c <= 'z'; c++) {
                             if (c != str2.charAt(j)) {
-                                char old = res[idx];
                                 res[idx] = c;
-
-                                boolean ok = true;
-                                for (int k = Math.max(0, idx - m + 1); k <= Math.min(n - 1, idx); k++) {
-                                    if (str1.charAt(k) == 'T') {
-                                        for (int x = 0; x < m; x++) {
-                                            if (res[k + x] != str2.charAt(x)) {
-                                                ok = false;
-                                                break;
-                                            }
-                                        }
-                                        if (!ok) break;
-                                    }
-                                }
-
-                                if (ok) {
-                                    changed = true;
-                                    break;
-                                }
-                                res[idx] = old;
+                                changed = true;
+                                break;
                             }
                         }
                         if (changed) break;
