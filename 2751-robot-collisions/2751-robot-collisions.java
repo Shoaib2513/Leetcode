@@ -3,68 +3,54 @@ class Solution {
         
         int n = positions.length;
         
-        int[][] robots = new int[n][4];
+        Integer[] idx = new Integer[n];
+        for(int i = 0; i < n; i++) idx[i] = i;
         
-        for(int i = 0; i < n; i++){
-            robots[i][0] = positions[i];
-            robots[i][1] = healths[i];
-            robots[i][2] = directions.charAt(i) == 'R' ? 1 : 0;
-            robots[i][3] = i;
-        }
+        Arrays.sort(idx, (a, b) -> positions[a] - positions[b]);
         
-        Arrays.sort(robots, (a, b) -> a[0] - b[0]);
+        ArrayDeque<Integer> st = new ArrayDeque<>();
         
-        Stack<Integer> st = new Stack<>();
-        
-        for(int i = 0; i < n; i++){
+        for(int i : idx){
             
-            if(robots[i][2] == 1){
+            if(directions.charAt(i) == 'R'){
                 st.push(i);
             }
             else{
-                while(!st.isEmpty() && robots[i][1] > 0){
+                while(!st.isEmpty() && healths[i] > 0){
                     
                     int top = st.peek();
                     
-                    if(robots[top][2] == 0) break;
+                    if(directions.charAt(top) == 'L') break;
                     
-                    if(robots[top][1] == robots[i][1]){
-                        robots[top][1] = 0;
-                        robots[i][1] = 0;
+                    if(healths[top] == healths[i]){
+                        healths[top] = 0;
+                        healths[i] = 0;
                         st.pop();
                         break;
                     }
-                    else if(robots[top][1] > robots[i][1]){
-                        robots[top][1]--;
-                        robots[i][1] = 0;
+                    else if(healths[top] > healths[i]){
+                        healths[top]--;
+                        healths[i] = 0;
                         break;
                     }
                     else{
-                        robots[i][1]--;
-                        robots[top][1] = 0;
+                        healths[i]--;
+                        healths[top] = 0;
                         st.pop();
                     }
                 }
                 
-                if(robots[i][1] > 0){
+                if(healths[i] > 0){
                     st.push(i);
                 }
             }
         }
         
-        int[] result = new int[n];
-        
-        for(int i = 0; i < n; i++){
-            if(robots[i][1] > 0){
-                int originalIndex = robots[i][3];
-                result[originalIndex] = robots[i][1];
-            }
-        }
-        
         List<Integer> ans = new ArrayList<>();
+        
         for(int i = 0; i < n; i++){
-            if(result[i] > 0){
-                ans.add(result[i]);
+            if(healths[i] > 0){
+                ans.add(healths[i]);
             }
         }
         
