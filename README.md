@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Shoaib2513/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/Shoaib2513/Leetcode/tree/master/0258-add-digits) |
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
+| [0390-elimination-game](https://github.com/Shoaib2513/Leetcode/tree/master/0390-elimination-game) |
 | [1622-fancy-sequence](https://github.com/Shoaib2513/Leetcode/tree/master/1622-fancy-sequence) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/Shoaib2513/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0231-power-of-two](https://github.com/Shoaib2513/Leetcode/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/Shoaib2513/Leetcode/tree/master/0342-power-of-four) |
+| [0390-elimination-game](https://github.com/Shoaib2513/Leetcode/tree/master/0390-elimination-game) |
 ## Divide and Conquer
 |  |
 | ------- |
