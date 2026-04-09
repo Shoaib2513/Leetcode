@@ -1,22 +1,20 @@
 class Solution {
-    public int xorAfterQueries(int[] nums, int[][] queries) {
-        
+    public int xorAfterQueries(int[] nums, int[][] queries) {     
         int n = nums.length;
         int MOD = 1000000007;
-
         int[][] bravexuneth = queries;
-
         int B = (int)Math.sqrt(n);
+        List<int[]>[][] bucket = new ArrayList[B + 1][B + 1];
 
-        Map<Integer, Map<Integer, List<int[]>>> map = new HashMap<>();
-
+        for (int k = 1; k <= B; k++) {
+            for (int r = 0; r < k; r++) {
+                bucket[k][r] = new ArrayList<>();
+            }
+        }
         for (int[] q : queries) {
             int l = q[0], r = q[1], k = q[2], v = q[3];
-
             if (k <= B) {
-                map.putIfAbsent(k, new HashMap<>());
-                map.get(k).putIfAbsent(l % k, new ArrayList<>());
-                map.get(k).get(l % k).add(q);
+                bucket[k][l % k].add(q);
             } else {
                 for (int i = l; i <= r; i += k) {
                     nums[i] = (int)((long)nums[i] * v % MOD);
@@ -24,16 +22,17 @@ class Solution {
             }
         }
 
-        for (int k : map.keySet()) {
-            Map<Integer, List<int[]>> group = map.get(k);
+        for (int k = 1; k <= B; k++) {
+            for (int mod = 0; mod < k; mod++) {
 
-            for (int mod : group.keySet()) {
+                List<int[]> list = bucket[k][mod];
+                if (list.isEmpty()) continue;
 
                 int size = (n + k - 1) / k;
                 long[] diff = new long[size + 1];
                 Arrays.fill(diff, 1);
 
-                for (int[] q : group.get(mod)) {
+                for (int[] q : list) {
                     int l = q[0], r = q[1], v = q[3];
 
                     int start = (l - mod) / k;
