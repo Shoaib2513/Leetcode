@@ -1,44 +1,30 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public int size(ListNode head){
-        ListNode t = head;
-        int n = 0;
-        while(t!=null){
-            n++;
-            t = t.next;
-        }
-        return n;
-    }
     public ListNode oddEvenList(ListNode head) {
-        if(head==null || head.next==null || head.next.next==null) return head;
-        int n = size(head);
+        if(head==null || head.next==null) return head;
 
         ListNode odd = head;
         ListNode even = head.next;
+        ListNode evenHead = even;
 
-        ListNode t1 = odd;
-        ListNode t2 = even;
-        
-        if(n%2==1){
-              while(t1!=null && t2!=null){
-                t1.next = t1.next.next;
-                t1 = t1.next;
+        while(even!=null && even.next!=null){
+            odd.next = even.next;
+            odd = odd.next;
 
-                t2.next = t2.next.next;
-                t2 = t2.next;
+            even.next = odd.next;
+            even = even.next;
         }
-        t1.next = even;
-        }else{
-              while(t1!=null && t2!=null){
-                t1.next = t1.next.next;
-                t1 = t1.next;
 
-                t2.next = t2.next.next;
-                t2 = t2.next;
-                if(t2.next==null) break;
-        }
-        t1.next = even;
-        }
-        return odd;
-
+        odd.next = evenHead;
+        return head;
     }
 }
