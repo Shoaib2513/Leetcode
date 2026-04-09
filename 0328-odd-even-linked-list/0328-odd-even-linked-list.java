@@ -1,42 +1,44 @@
-
 class Solution {
-    public ListNode oddEvenList(ListNode head) {
-        if(head==null || head.next==null) return head;
+    public int size(ListNode head){
+        ListNode t = head;
         int n = 0;
-        ListNode temp = head;
-        while(temp!=null){
-            temp = temp.next;
+        while(t!=null){
             n++;
-        }
-         
-        int[] arr = new int[n];
-        temp = head;
-        int i =0;
-        while(temp!=null){
-            int x = temp.val;
-            temp = temp.next;
-            arr[i++]=x;
-        }
-
-        ListNode dummy = new ListNode(-1);
-        ListNode t = dummy;
-         i=0;
-        while(i<n){
-            ListNode a = new ListNode(arr[i]);
-            t.next = a;
             t = t.next;
-            i+=2;
         }
-        i=1;
-        while(i<n){
-            ListNode a = new ListNode(arr[i]);
-            t.next = a;
-            t = t.next;
-            i+=2;
-        }
+        return n;
+    }
+    public ListNode oddEvenList(ListNode head) {
+        if(head==null || head.next==null || head.next.next==null) return head;
+        int n = size(head);
 
-        return dummy.next;
+        ListNode odd = head;
+        ListNode even = head.next;
 
+        ListNode t1 = odd;
+        ListNode t2 = even;
         
+        if(n%2==1){
+              while(t1!=null && t2!=null){
+                t1.next = t1.next.next;
+                t1 = t1.next;
+
+                t2.next = t2.next.next;
+                t2 = t2.next;
+        }
+        t1.next = even;
+        }else{
+              while(t1!=null && t2!=null){
+                t1.next = t1.next.next;
+                t1 = t1.next;
+
+                t2.next = t2.next.next;
+                t2 = t2.next;
+                if(t2.next==null) break;
+        }
+        t1.next = even;
+        }
+        return odd;
+
     }
 }
