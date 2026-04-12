@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/Shoaib2513/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/Shoaib2513/Leetcode/tree/master/0389-find-the-difference) |
 | [0657-robot-return-to-origin](https://github.com/Shoaib2513/Leetcode/tree/master/0657-robot-return-to-origin) |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Shoaib2513/Leetcode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Shoaib2513/Leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Shoaib2513/Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Shoaib2513/Leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0010-regular-expression-matching](https://github.com/Shoaib2513/Leetcode/tree/master/0010-regular-expression-matching) |
 | [0055-jump-game](https://github.com/Shoaib2513/Leetcode/tree/master/0055-jump-game) |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Shoaib2513/Leetcode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Shoaib2513/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Shoaib2513/Leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2573-find-the-string-with-lcp](https://github.com/Shoaib2513/Leetcode/tree/master/2573-find-the-string-with-lcp) |
