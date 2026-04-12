@@ -1,30 +1,49 @@
 class Solution {
-    int[][][] dp;
-
     public int minimumDistance(String word) {
         int n = word.length();
-        dp = new int[27][27][n];
+        int[][] dp = new int[27][27];
+
         for (int i = 0; i < 27; i++) {
             for (int j = 0; j < 27; j++) {
-                for (int k = 0; k < n; k++) {
-                    dp[i][j][k] = -1;
-                }
+                dp[i][j] = Integer.MAX_VALUE;
             }
         }
-        return solve(word, 26, 26, 0);
-    }
 
-    private int solve(String word, int f1, int f2, int idx) {
-        if (idx == word.length()) return 0;
+        dp[26][26] = 0;
 
-        if (dp[f1][f2][idx] != -1) return dp[f1][f2][idx];
+        for (int i = 0; i < n; i++) {
+            int[][] newDp = new int[27][27];
+            for (int a = 0; a < 27; a++) {
+                for (int b = 0; b < 27; b++) {
+                    newDp[a][b] = Integer.MAX_VALUE;
+                }
+            }
 
-        int curr = word.charAt(idx) - 'A';
+            int curr = word.charAt(i) - 'A';
 
-        int useF1 = dist(f1, curr) + solve(word, curr, f2, idx + 1);
-        int useF2 = dist(f2, curr) + solve(word, f1, curr, idx + 1);
+            for (int f1 = 0; f1 < 27; f1++) {
+                for (int f2 = 0; f2 < 27; f2++) {
+                    int val = dp[f1][f2];
+                    if (val == Integer.MAX_VALUE) continue;
 
-        return dp[f1][f2][idx] = Math.min(useF1, useF2);
+                    int useF1 = val + dist(f1, curr);
+                    newDp[curr][f2] = Math.min(newDp[curr][f2], useF1);
+
+                    int useF2 = val + dist(f2, curr);
+                    newDp[f1][curr] = Math.min(newDp[f1][curr], useF2);
+                }
+            }
+
+            dp = newDp;
+        }
+
+        int res = Integer.MAX_VALUE;
+        for (int i = 0; i < 27; i++) {
+            for (int j = 0; j < 27; j++) {
+                res = Math.min(res, dp[i][j]);
+            }
+        }
+        return res;
     }
 
     private int dist(int a, int b) {
