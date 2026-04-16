@@ -4,34 +4,37 @@ class Solution {
 
         Map<Integer, List<Integer>> map = new HashMap<>();
 
-        // store indices
         for (int i = 0; i < n; i++) {
             map.computeIfAbsent(nums[i], k -> new ArrayList<>()).add(i);
+        }
+
+        int[] minDist = new int[n];
+        Arrays.fill(minDist, -1);
+
+        for (List<Integer> list : map.values()) {
+            int size = list.size();
+
+            if (size == 1) continue;
+
+            for (int i = 0; i < size; i++) {
+                int curr = list.get(i);
+                int prev = list.get((i - 1 + size) % size);
+                int next = list.get((i + 1) % size);
+
+                int d1 = Math.abs(curr - prev);
+                d1 = Math.min(d1, n - d1);
+
+                int d2 = Math.abs(curr - next);
+                d2 = Math.min(d2, n - d2);
+
+                minDist[curr] = Math.min(d1, d2);
+            }
         }
 
         List<Integer> ans = new ArrayList<>();
 
         for (int q : queries) {
-            List<Integer> list = map.get(nums[q]);
-
-            if (list.size() == 1) {
-                ans.add(-1);
-                continue;
-            }
-
-            int idx = Collections.binarySearch(list, q);
-            int size = list.size();
-
-            int left = list.get((idx - 1 + size) % size);
-            int right = list.get((idx + 1) % size);
-
-            int d1 = Math.abs(q - left);
-            d1 = Math.min(d1, n - d1);
-
-            int d2 = Math.abs(q - right);
-            d2 = Math.min(d2, n - d2);
-
-            ans.add(Math.min(d1, d2));
+            ans.add(minDist[q]);
         }
 
         return ans;
