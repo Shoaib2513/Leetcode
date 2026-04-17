@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Shoaib2513/Leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Shoaib2513/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Shoaib2513/Leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Backtracking
 |  |
 | ------- |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-find-triangular-sum-of-an-array](https://github.com/Shoaib2513/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/Shoaib2513/Leetcode/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Shoaib2513/Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Recursion
 |  |
 | ------- |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3548-equal-sum-grid-partition-ii](https://github.com/Shoaib2513/Leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Shoaib2513/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Shoaib2513/Leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Shoaib2513/Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Greedy
 |  |
 | ------- |
