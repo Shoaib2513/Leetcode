@@ -4,13 +4,12 @@ class Solution {
         int ans = Integer.MAX_VALUE;
 
         for(int i = 0; i < nums.length; i++) {
-            if(map.containsKey(nums[i])) {
-                ans = Math.min(ans, i - map.get(nums[i]));
+            Integer prev = map.get(nums[i]);
+            if(prev != null) {
+                ans = Math.min(ans, i - prev);
             }
 
-            int rev = 0;
-            int x = nums[i];
-
+            int x = nums[i], rev = 0;
             while(x > 0) {
                 rev = rev * 10 + x % 10;
                 x /= 10;
